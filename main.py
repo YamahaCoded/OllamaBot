@@ -13,10 +13,12 @@ class MyClient(discord.Client):
 
         if self.user.mention in message.content:
             await message.channel.typing()
+            
             user_input = message.content
             messages.append({'role': 'user', 'content': user_input.replace(self.user.mention, '')})
             response = ollama.chat(model='model', messages=messages)
             assistant_reply = response['message']['content']
+            
             await message.reply(f"{assistant_reply}")
             messages.append({'role': 'assistant', 'content': assistant_reply})
 
