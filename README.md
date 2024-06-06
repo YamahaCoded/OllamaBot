@@ -8,5 +8,5 @@ Replace model field and bot token on main
 Run ```pip install -r requirements.txt``` on console to set up the requirements  
 
 
-### Notice: 
+### Notice
 - This was made with Ollama 0.1.39
