@@ -1,9 +1,9 @@
 # OllamaBot
 
-A simple discord bot written in Python using Ollama to run a language model  
-To use it, install Ollama, download a model and get your own bot token, then replace model field and bot token
+A simple discord bot written in Python 3.12.3 using Ollama to run language models  
 
-# Instructions
+## How to Run
 
+Replace model field and bot token on main  
 Run ```pip install -r requirements.txt``` on console to set up the requirements  
 Use python 3.12.3  
